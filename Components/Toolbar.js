@@ -67,7 +67,7 @@ const Toolbar = ({ handleCommand }) => {
       </button>
       <button
         type="button"
-        className="px-3 py-2 bg-white border-t border-b border-gray-300 shadow hover:bg-gray-200 focus:outline-none transition-all duration-300 relative ml-2"
+        className="px-3 py-2 bg-white border-t border-b border-gray-300 shadow hover:bg-gray-200 hidden sm:visible focus:outline-none transition-all duration-300 relative ml-2"
         onClick={toggleColorMenu}
         title="Font Color"
       >
